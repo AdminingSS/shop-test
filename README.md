@@ -1,14 +1,14 @@
 # Test Task: Frontend Developer (E-commerce Store)
 
-This project is a single-page React application featuring a responsive product catalog and an interactive shopping cart with discount logic.
+This project is a Next.js application featuring a responsive product catalog and an interactive shopping cart with discount logic, built with Clean Architecture principles.
 
 ## Tech Stack
 
-*   **Framework:** React 19+ (TypeScript)
+*   **Framework:** Next.js 16+ (React 19+, TypeScript)
+*   **Architecture:** Clean Architecture (Domain, Application, Infrastructure, Presentation)
 *   **State Management:** Zustand (with Persist middleware)
 *   **Backend & DB:** Supabase (PostgreSQL + Realtime)
 *   **Styling:** Tailwind CSS v4
-*   **Bundler:** Vite
 *   **Version Control:** Git / GitHub
 *   **Demo Hosting:** Vercel
 
@@ -35,14 +35,14 @@ To run the project locally on your machine:
     ```
 4.  Create a `.env.local` file in the root directory and add your credentials:
     ```bash
-    VITE_SUPABASE_URL=your_supabase_url
-    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
     ```
 5.  Start the development server:
     ```bash
     npm run dev
     ```
 
-The application will be accessible at `http://localhost:5173/` (or another port specified in the terminal).
+The application will be accessible at `http://localhost:3000/` (or another port specified in the terminal).
 
 ---
